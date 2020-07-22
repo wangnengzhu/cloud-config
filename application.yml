@@ -1,0 +1,17 @@
+spring:
+ profiles:
+  active:
+  - dev
+  
+---
+spring:
+ profiles: dev  #开发环境
+ application:
+  name: cloud-config-wnz-dev
+  
+---
+spring:
+ profiles: test
+ application:
+  name: cloud-config-wnz-test
+ 
